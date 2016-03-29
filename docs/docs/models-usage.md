@@ -40,7 +40,7 @@ User
     console.log(user.get({
       plain: true
     }))
-    console.log(created)
+    console.log('created: ' + created)
 
     /*
       {
@@ -66,7 +66,7 @@ User
         console.log(user.get({
           plain: true
         }))
-        console.log(created)
+        console.log('created: ' + created)
 
         /*
           {
